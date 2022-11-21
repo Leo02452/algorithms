@@ -11,6 +11,7 @@ def sort_word(word):
         word_array[current_position] = current_value
     return ''.join(word_array)
 
+
 def is_anagram(first_string, second_string):
     first_sorted_word = sort_word(first_string)
     second_sorted_word = sort_word(second_string)
